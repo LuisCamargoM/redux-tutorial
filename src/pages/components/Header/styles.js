@@ -12,4 +12,31 @@ export const Container = styled.header`
     }
 `;
 
-export const Cart = styled(Link)``;
+export const Cart = styled(Link)`
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    transistion: opacity 0.2s;
+
+    &:hover{
+        opacity: 0.7;
+    }
+
+    div {
+        text-align: right;
+        margin-right: 10px;
+        font-weight: bold;
+
+        strong{
+            display: block;
+            color: #fff;
+        }
+    
+        span { 
+            color: #999;
+            font-size: 12px;
+        }
+
+    }
+    
+`;

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import {MdShoppingBasket} from 'react-icons/md';
 
 import { Container, Cart } from './styles';
-import logo from '../../../assets/images/logo.svg';
+import logo from '../../../assets/images/logo.png';
 
 export default function Header(){
     return (
@@ -15,12 +15,12 @@ export default function Header(){
             <Cart to='/cart'>
                 <div>
                     <strong>Meu carrinho</strong>
-                    <span> 3 items</span>
-                    <MdShoppingBasket 
-                        size={36}
-                        color='#fff'
-                    />
+                    <span> 3 items</span>                    
                 </div>                
+                <MdShoppingBasket 
+                        size={50}
+                        color='#fff'
+                />
             </Cart>
         </Container>
     )
