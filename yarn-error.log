@@ -1,30 +1,29 @@
 Arguments: 
-  /usr/local/bin/node /usr/local/Cellar/yarn/1.19.0/libexec/bin/yarn.js add style-components
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js
 
 PATH: 
-  /Users/LuisCamargo/.composer/vendor/bin:/usr/local/php5/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Users/LuisCamargo/.composer/vendor/bin:/usr/local/php5/bin:/usr/local/mysql/bin:/usr/local/mysql/bin
+  C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;c:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Amazon\AWSCLIV2DevPreview\;C:\Program Files\Amazon\AWSCLI\bin\;C:\Program Files\Git\cmd;C:\Users\Luis Mendoza\AppData\Local\Microsoft\WindowsApps;C:\Users\Luis Mendoza\AppData\Roaming\npm;C:\Users\Luis Mendoza\AppData\Local\Yarn\bin;C:\Users\Luis Mendoza\AppData\Local\Programs\Microsoft VS Code\bin
 
 Yarn version: 
-  1.19.0
+  1.21.1
 
 Node version: 
-  10.16.3
+  12.14.1
 
 Platform: 
-  darwin x64
+  win32 x64
 
 Trace: 
-  Error: https://registry.yarnpkg.com/style-components: Not found
-      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.19.0/libexec/lib/cli.js:66918:18)
-      at Request.self.callback (/usr/local/Cellar/yarn/1.19.0/libexec/lib/cli.js:140539:22)
-      at Request.emit (events.js:198:13)
-      at Request.<anonymous> (/usr/local/Cellar/yarn/1.19.0/libexec/lib/cli.js:141511:10)
-      at Request.emit (events.js:198:13)
-      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/1.19.0/libexec/lib/cli.js:141433:12)
-      at Object.onceWrapper (events.js:286:20)
-      at IncomingMessage.emit (events.js:203:15)
-      at endReadableNT (_stream_readable.js:1145:12)
-      at process._tickCallback (internal/process/next_tick.js:63:19)
+  Error: https://registry.yarnpkg.com/rxjs/-/rxjs-6.5.4.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141292:19)
+      at Object.onceWrapper (events.js:312:28)
+      at ClientRequest.emit (events.js:223:5)
+      at TLSSocket.emitRequestTimeout (_http_client.js:690:9)
+      at Object.onceWrapper (events.js:312:28)
+      at TLSSocket.emit (events.js:223:5)
+      at TLSSocket.Socket._onTimeout (net.js:474:8)
+      at listOnTimeout (internal/timers.js:531:17)
+      at processTimers (internal/timers.js:475:7)
 
 npm manifest: 
   {
@@ -35,7 +34,8 @@ npm manifest:
       "react": "^16.12.0",
       "react-dom": "^16.12.0",
       "react-router-dom": "^5.1.2",
-      "react-scripts": "3.3.0"
+      "react-scripts": "3.3.0",
+      "styled-components": "^4.4.1"
     },
     "scripts": {
       "start": "react-scripts start"

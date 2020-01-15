@@ -1,7 +1,11 @@
 import React from 'react';
 
-export default function Home(){
+import {Container} from './styles.js';
+
+export default function Cart(){
     return (
-        <h1>Cart</h1>
+        <Container>
+            
+        <Container/>    
     )
 }
